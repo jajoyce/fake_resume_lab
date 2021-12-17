@@ -1,0 +1,21 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    background-color: #cdf;
+}
+
+h1 { 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#22a
+}
+
+h3 {
+    color: #22a;
+    margin-top: 40px;
+}
+
+#social-links li {
+    display: inline;
+    margin-right: 25px;
+}
