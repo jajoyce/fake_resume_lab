@@ -1,21 +1,77 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
-    background-color: #cdf;
+    padding: 10px 10px 100px 10px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #347;
+    color: #eee;
 }
 
 h1 { 
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color:#22a
+    color: #bcf;
+}
+
+h2 {
+    text-align: center;
+    color: #bcf;
+
 }
 
 h3 {
-    color: #22a;
+    color: #bcf;
     margin-top: 40px;
 }
 
-#social-links li {
-    display: inline;
+nav {
+    margin-bottom: 25px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    display: inline-block;
     margin-right: 25px;
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+a {
+    color:#abf;
+}
+
+img {
+    display: inline-block;
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+#projects-img {
+    margin: 10px;
+    max-width: 40%;
+    max-height: 450px;
+}
+
+.projects-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.experience-list, .projects-list {
+    line-height: 2.5em;
+}
+
+.experience-list {
+    list-style-type: square;
+}
+
+.projects-list {
+    list-style-type: upper-roman;
 }
